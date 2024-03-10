@@ -1,0 +1,4 @@
+- name: add ssh key for tess
+  authorized_key:
+    user: tess
+    key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO6suEtywVycjshN9mWi0HbVaroMBkm0BEmK9GFLsUa7 ansible"
